@@ -45,12 +45,18 @@ body {
     font-size: medium;
     font-weight: bold;
 }
+.mainbod {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 25px;
+}
 h1{
     padding-top: 25%;
     padding-bottom: 25%;
     background-image: url(Bg2.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px 750px;
+    background-size: 1550px 750px;
     text-align: left;
     vertical-align: middle;
     font-size: 100px;

@@ -39,27 +39,27 @@
 	background: red;
 	border-radius: 2px;
 }
-body {
-    background-color: gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    font-weight: bold;
+body{
+    background-color: dimgrey;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
 }
-.mainbod {
-    text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 25px;
-}
+.column {
+    float: left;
+    width: 50%;
+  }
 h1{
-    padding-top: 25%;
-    padding-bottom: 25%;
-    background-image: url(Bg3.jpg);
-    background-repeat: no-repeat;
-    background-size: 1550px 750px;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 100px;
-    color: cyan;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 60px;
+}
+h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+.mainbod{
+    margin-right: 15%;
+    margin-left: 15%;
 }
