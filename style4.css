@@ -61,5 +61,7 @@ h2{
 }
 .mainbod{
     margin-right: 15%;
-    margin-left: 15%;
+    margin-left: 35%;
+    text-align: left;
+    font-size: 25px;
 }
