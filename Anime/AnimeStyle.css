@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+body {
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.mainbod {
+	padding-top: 5%;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;
+    background-image: url(Bg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imptext{
+    color: darkmagenta;
+    border: 5px solid red;
+}
+h1{
+    padding-top: 20%;
+    padding-bottom: 30%;
+    background-image: url(Bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100px;
+    border: 5px solid green;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.anime1head{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10%;
+    font-size: 50px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(gif1.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote{
+        align-self: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        border: 15px solid red;
+        background-color: black;
+        color: white;
+        padding: 50px;
+        margin: 20px;
+}
+.alert{
+    align-self: center;
+    padding-top: 30%;
+    margin-left: 15%;
+    border: 5px solid black;
+    color: red;
+    font-size: 50px;
+    margin-right: 15%;
+    background-image: url(gif2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.anime1bod{
+	padding-top: 5%;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;
+    background-image: url(Bg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.progress{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image: url(progress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100px;
+    border: 5px solid green;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

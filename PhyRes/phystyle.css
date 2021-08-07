@@ -47,6 +47,7 @@ body {
     padding-bottom: 5%;
 }
 .mainbod {
+	padding-top: 5%;
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
@@ -57,7 +58,7 @@ h1{
     padding-bottom: 25%;
     background-image: url(Bg1.jpg);
     background-repeat: no-repeat;
-    background-size: 1550px 750px;
+    background-size: cover;
     text-align: left;
     vertical-align: middle;
     font-size: 100px;
